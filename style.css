@@ -20,6 +20,7 @@
 }
 
 html,body {
+
     min-height:100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
@@ -27,11 +28,15 @@ html,body {
 
 header{
     background-color: black;
-    color: rgb(247, 4, 4);
+    color: rgb(9, 9, 9);
     text-align: center;
 }
 
 header > h1{
+    background-position: 0vmax;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url(imagens/images.jpg);
     padding-top: 20px;
     font-variant: small-caps;
     font-family: var(--fonte2);
